@@ -45,6 +45,16 @@
         #Nav-bar ul li:hover {
         background-color: #0056b3;       /* Darker on hover */
         }
+         table {
+      border: 2px solid #010b15;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #010b15;
+      padding: 8px;
+      text-align: left;
+    }
     </style>
  <header>
     <div id="profile-picture">
@@ -56,7 +66,7 @@
     </div>
  </header>
  <nav id="Nav-bar">
-   <ul>
+   <ul style="color: blanchedalmond;">
     <li> Introduction </li>
     <li> Education </li>
     <li> Technologies </li>
@@ -67,27 +77,24 @@
 <body>
      <section id="Technical-Detail">
       <h2> Technologies :</h2>
-    <ol>
-        <li> Front End Technologies </li>
-        <ul>
-            <li> HTML, CSS, JS. </li>
-        </ul>
-        
-        <li> Backend Technologies </li>
-        <ul>
-            <li> Postman </li>
-        </ul>
-        
-        <li> Speacialization </li>
-        <ul>
-            <li> AI/ML also coming soon </li>
-        </ul>
-    </ol>
+    <Table>
+        <tr>
+            <th> Frontend Technologies </th>
+            <th> Backend Technologies </th>
+            <th> Database Technologies </th>
+        </tr>
+        <tr>
+            <td>HTML, CSS, JS </td>
+            <td> Node.js, Express.js</td>
+            <td> MongoDB, SQL </td> 
+        </tr>
+    </Table>
      </section>
     
     <section id="Basic-Educationas">    
       <h2> Educational Qualifications :</h2>
-    <ul>
+    <!--   
+      <ul>
         <li>Final Year B.Tech in CSAI from Medicaps University </li>
         <li>12th passed from MP Board</li> </li>
         <li>10th passed from CBSE Board</li>  
@@ -104,7 +111,33 @@
             <li><p> Wittyhacks 4.0 - Central India Largest Hackathon <a href="./Assets/Wittyhacks.pdf" target="_blank"> Certificate</a> </p></li>
 
         </ul>
-     <div>
+     -->
+        <Table>
+        <tr>
+            <th> Class </th>
+            <th> Institution </th>
+            <th> Score </th>
+        </tr>
+        <tr>
+            <td>10th CBSE Board </td>
+            <td>Shri Gujarati Samaj AMN School</td>
+            <td> 71% </td> 
+        </tr>
+         </tr>
+        <tr>
+            <td>12th MP Board</td>
+            <td> Daily Mirror Public High School</td>
+            <td> 63.8%</td> 
+        </tr>
+         </tr>
+        <tr>
+            <td>Undergraduate</td>
+            <td> Medicaps University</td>
+            <td> Mat Pucho </td> 
+        </tr>  
+    </Table> 
+        
+        <div>
                 <h2> My Coding Status </h2>  
       <ul>
             <li>Leetcode Status</li>
