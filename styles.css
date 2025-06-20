@@ -15,8 +15,10 @@ img {
 }
 
 header {
-    background-color: aqua;
-    border-radius: 30px;
+    background-color:#bfbfbf;
+    padding: 25px 25px 25px;   
+    text-align: center;
+
 }
 
 #Nav-bar {
