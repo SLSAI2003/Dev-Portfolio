@@ -1,8 +1,20 @@
-header{
-    background-color: rgb(84, 86, 204);
-    border-width: 20px;
-    border-color: rgb(211, 215, 215);
+.header-section{
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 65px;
 }
-#Signature-Section{
-    border:5px red
+
+#Header-Signature{
+   flex-grow: 1;
+   border-style: solid;
+}
+
+#Header-Nav-Bar{
+    flex-grow: 39;
+    border-style: solid;
+   
 }
