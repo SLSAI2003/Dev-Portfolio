@@ -18,3 +18,24 @@
     border-style: solid;
    
 }
+.Intro-section{
+    display: flex;
+    border-style: solid;
+    flex-direction: row;
+    height: 3.4in;
+    align-content: center;
+}
+#Intro-Photo{
+display: flex;
+border-style: solid;
+width: 2.5in;
+justify-content: center;
+align-items: center;
+
+}
+
+#Intro-Text{
+display: flex;
+border-style: solid;
+width: 3.9in;
+}
